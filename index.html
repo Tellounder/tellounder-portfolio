@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030303" />
+    <!-- SEO_ROUTE_START -->
+    <title>Tellounder | Desarrollo de sistemas, UX e IA aplicada</title>
+    <meta
+      name="description"
+      content="Diseño y desarrollo de sistemas y productos digitales para empresas: UX, frontend, backend, APIs, automatización, IA aplicada y bots RAG."
+    />
+    <meta name="author" content="Leonardo Emmanuel Tello" />
+    <meta name="application-name" content="Tellounder" />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+    <link rel="canonical" href="https://tellounder108.web.app/" />
+
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tellounder" />
+    <meta property="og:title" content="Tellounder | Desarrollo de sistemas, UX e IA aplicada" />
+    <meta property="og:description" content="Diseño y desarrollo de sistemas y productos digitales para empresas: UX, frontend, backend, APIs, automatización, IA aplicada y bots RAG." />
+    <meta property="og:url" content="https://tellounder108.web.app/" />
+    <meta property="og:image" content="https://tellounder108.web.app/og/tellounder.png" />
+    <meta property="og:image:secure_url" content="https://tellounder108.web.app/og/tellounder.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Tellounder sobre fondo negro: desarrollo de sistemas, UX e IA aplicada" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tellounder | Desarrollo de sistemas, UX e IA aplicada" />
+    <meta name="twitter:description" content="Diseño y desarrollo de sistemas y productos digitales para empresas: UX, frontend, backend, APIs, automatización, IA aplicada y bots RAG." />
+    <meta name="twitter:image" content="https://tellounder108.web.app/og/tellounder.png" />
+    <meta name="twitter:image:alt" content="Tellounder sobre fondo negro: desarrollo de sistemas, UX e IA aplicada" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://tellounder108.web.app/#website",
+            "url": "https://tellounder108.web.app/",
+            "name": "Tellounder",
+            "inLanguage": "es-AR",
+            "publisher": { "@id": "https://tellounder108.web.app/#organization" }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://tellounder108.web.app/#organization",
+            "name": "Tellounder",
+            "url": "https://tellounder108.web.app/",
+            "founder": { "@id": "https://tellounder108.web.app/#leonardo-tello" },
+            "sameAs": [
+              "https://github.com/tellounder",
+              "https://www.instagram.com/tellounder/",
+              "https://ar.linkedin.com/in/leonardo-tello-08123"
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://tellounder108.web.app/#leonardo-tello",
+            "name": "Leonardo Emmanuel Tello",
+            "alternateName": "Tellounder",
+            "jobTitle": "Diseñador y desarrollador de productos digitales",
+            "url": "https://tellounder108.web.app/sobre-leonardo-tello/",
+            "sameAs": [
+              "https://github.com/tellounder",
+              "https://www.instagram.com/tellounder/",
+              "https://ar.linkedin.com/in/leonardo-tello-08123"
+            ]
+          }
+        ]
+      }
+    </script>
+    <!-- SEO_ROUTE_END -->
+    <script>
+      document.documentElement.classList.add('js');
+      window.tellounderBoot = {
+        entered: location.pathname !== '/', audio: false, ready: false,
+        fail: function () {
+          clearTimeout(this.timer);
+          document.documentElement.classList.remove('app-ready', 'app-mounting');
+          document.documentElement.classList.add('boot-failed');
+          var fallback = document.getElementById('seo-root');
+          if (fallback) fallback.hidden = false;
+        },
+        finish: function () {
+          if (!this.entered || !this.ready) return;
+          clearTimeout(this.timer);
+          document.documentElement.classList.add('app-ready');
+          document.documentElement.classList.remove('app-mounting');
+          document.getElementById('boot-root').hidden = true;
+          document.getElementById('seo-root').hidden = true;
+          try { sessionStorage.setItem('tellounder-entered', '1'); } catch (_) {}
+        },
+        enter: function () {
+          if (this.entered) return;
+          this.entered = true;
+          this.audio = document.getElementById('boot-audio').checked;
+          document.getElementById('boot-enter').textContent = 'Abriendo experiencias…';
+          document.getElementById('boot-enter').disabled = true;
+          this.timer = setTimeout(this.fail.bind(this), 10000);
+          window.dispatchEvent(new Event('tellounder:enter'));
+          this.finish();
+        }
+      };
+      try { if (sessionStorage.getItem('tellounder-entered')) window.tellounderBoot.entered = true; } catch (_) {}
+      if (window.tellounderBoot.entered) document.documentElement.classList.add('boot-resuming');
+      window.tellounderBoot.timer = setTimeout(function () { window.tellounderBoot.fail(); }, 10000);
+    </script>
+    <style id="boot-style">
+      html,body{margin:0;background:#030303;color:#fff}#boot-root,#app-root{display:none}.js:not(.boot-failed) #seo-root{display:none}.js:not(.app-ready):not(.boot-failed) #boot-root{display:grid}.js:not(.app-ready):not(.boot-failed){overflow:hidden}.js.app-ready #app-root{display:block}.boot{position:fixed;inset:0;z-index:100;place-items:center;overflow:auto;padding:clamp(24px,6vw,80px);box-sizing:border-box;background:radial-gradient(ellipse at 80% 75%,#281014 0,transparent 55%),#030303;font-family:Arial,Helvetica,sans-serif}.boot__content{width:min(800px,100%);margin:auto}.boot__brand{display:block;width:clamp(180px,32vw,280px);height:auto;max-width:100%;margin-bottom:clamp(32px,6vh,64px)}.boot__eyebrow,.boot__status{font:700 11px/1.5 monospace;letter-spacing:.13em}.boot__eyebrow{color:#ff496e}.boot__title{margin:16px 0 22px;font-size:clamp(32px,6vw,74px);font-weight:900;line-height:1;letter-spacing:-.055em;text-transform:uppercase}.boot__lead{max-width:540px;color:#f3efeb;font-size:clamp(16px,2vw,20px);line-height:1.6}.boot__actions{display:flex;align-items:center;flex-wrap:wrap;gap:24px;margin-top:32px}.boot__enter{padding:18px 24px;min-height:52px;border:0;background:#ff164f;color:white;font:800 12px/1.3 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;cursor:pointer}.boot__enter:disabled{opacity:.75;cursor:wait}.boot__audio{display:flex;align-items:center;gap:10px;min-height:44px;font-size:14px;cursor:pointer}.boot__audio input{accent-color:#ff164f;width:20px;height:20px}.boot__note{color:#eee;font-size:13px;line-height:1.5;margin-top:16px}.boot__status{display:flex;align-items:center;gap:10px;margin-top:48px;color:#f3efeb}.boot__status i{width:7px;height:7px;border-radius:50%;background:#ff164f;box-shadow:0 0 14px #ff164f}.boot :focus-visible{outline:2px solid white;outline-offset:5px}.boot-failed #seo-root{display:block}.boot-failed #boot-root,.boot-failed #app-root{display:none}
+    </style>
+    <style id="seo-fallback-style">
+      .js.app-mounting #app-root{display:block;visibility:hidden}#seo-root>main{padding:0;min-height:0}#seo-root>header,#seo-root>footer{font-family:system-ui,sans-serif}#seo-root>header a,#seo-root>footer a{color:#fff}.boot-resuming .boot__eyebrow,.boot-resuming .boot__title,.boot-resuming .boot__lead,.boot-resuming .boot__actions,.boot-resuming .boot__note{display:none}.boot-resuming .boot__status{margin-top:24px}
+      .seo-fallback{min-height:100vh;padding:clamp(3rem,8vw,7rem);color:#f3f0e8;background:#030303;font-family:Inter,system-ui,sans-serif}.seo-fallback__brand{color:#fff;text-decoration:none;font-weight:900}.seo-fallback h1{max-width:1050px;margin:4rem 0 1.5rem;font-size:clamp(3rem,8vw,7rem);line-height:.9;letter-spacing:-.06em}.seo-fallback h2{margin-top:3rem}.seo-fallback h3{margin-top:2rem}.seo-fallback p,.seo-fallback li{max-width:850px;line-height:1.7}.seo-fallback a{color:#ff3158}.seo-fallback nav{display:flex;flex-wrap:wrap;gap:1rem}.seo-fallback article{padding-top:1rem;border-top:1px solid #333}
+    </style>
+  </head>
+  <body>
+    <div id="boot-root" class="boot" aria-labelledby="boot-title">
+      <div class="boot__content">
+        <img class="boot__brand" src="/portadaTellounder.PNG" alt="Tellounder" width="400" height="124" fetchpriority="high" />
+        <span class="boot__eyebrow">LEONARDO TELLO / PRODUCTO DIGITAL</span>
+        <p id="boot-title" class="boot__title">Sistemas, UX e IA aplicada que funcionan.</p>
+        <p class="boot__lead">Casos reales, decisiones técnicas y productos en vivo. Explorá lo que construí y cómo lo resolví.</p>
+        <div class="boot__actions">
+          <button id="boot-enter" class="boot__enter" onclick="window.tellounderBoot.enter()">Explorar experiencias</button>
+          <label class="boot__audio"><input id="boot-audio" type="checkbox" /> Activar sonido</label>
+        </div>
+        <p class="boot__note">Podés cambiar el audio en cualquier momento.</p>
+        <div class="boot__status"><i aria-hidden="true"></i> POWER / READY</div>
+      </div>
+    </div>
+    <div id="app-root"></div>
+    <div id="seo-root" class="seo-fallback">
+      <!-- SEO_FALLBACK_START -->
+      <main class="seo-fallback">
+        <a class="seo-fallback__brand" href="/">TELLOUNDER</a>
+        <h1>Ideas con volumen. Sistemas que funcionan.</h1>
+        <p>Leonardo Tello diseña y desarrolla productos y sistemas digitales de punta a punta: estrategia, UX, frontend, backend, APIs, datos, cloud, automatización e IA aplicada con RAG.</p>
+        <nav aria-label="Contenido principal">
+          <a href="/servicios">Servicios</a>
+          <a href="/servicios/ia-rag">IA aplicada y RAG</a>
+          <a href="/proyectos/avvivo/">Proyectos</a>
+          <a href="/sobre-leonardo-tello/">Sobre Leonardo</a>
+          <a href="/contacto/">Contacto</a>
+        </nav>
+      </main>
+      <!-- SEO_FALLBACK_END -->
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

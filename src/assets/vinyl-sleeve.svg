@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" preserveAspectRatio="none" fill="none">
+  <title>Funda de vinilo de cartón grafito, lomo plegado y abertura lateral</title>
+  <defs>
+    <linearGradient id="board" x1="48" y1="0" x2="767" y2="935" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#393832"/><stop offset=".3" stop-color="#242525"/><stop offset=".72" stop-color="#1c1d1d"/><stop offset="1" stop-color="#302e29"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="4" y1="0" x2="39" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b0c0d"/><stop offset=".28" stop-color="#47484a"/><stop offset=".43" stop-color="#27282a"/><stop offset=".9" stop-color="#151618"/><stop offset="1" stop-color="#090a0b"/>
+    </linearGradient>
+    <linearGradient id="opening" x1="769" y1="0" x2="797" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050606"/><stop offset=".45" stop-color="#59564e"/><stop offset=".62" stop-color="#aaa397"/><stop offset=".78" stop-color="#3d3b37"/><stop offset="1" stop-color="#151515"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="0" y1="970" x2="0" y2="995" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#575654"/><stop offset=".23" stop-color="#252628"/><stop offset="1" stop-color="#0a0b0c"/>
+    </linearGradient>
+    <pattern id="paper" width="13" height="11" patternUnits="userSpaceOnUse">
+      <path d="M1 2h2M8 7h1M4 10h2" stroke="#d2c2a5" stroke-opacity=".12" stroke-width=".6"/>
+      <path d="M6 3h3M1 8h1M11 10h1" stroke="#000" stroke-opacity=".26" stroke-width=".5"/>
+    </pattern>
+    <clipPath id="face">
+      <path d="M34 11 779 5 782 442C759 444 759 498 783 501L786 978 34 984Z"/>
+    </clipPath>
+  </defs>
+  <path d="m14 10 771-8 24 13 3 967-23 15L7 990Z" fill="#08090a"/>
+  <path d="m765 16 26 2 3 960-27 9Z" fill="url(#opening)"/>
+  <path d="m15 970 764-6 7 17-13 13L9 987Z" fill="url(#fold)"/>
+  <path d="M34 11 779 5 782 442C759 444 759 498 783 501L786 978 34 984Z" fill="url(#board)"/>
+  <g clip-path="url(#face)">
+    <path fill="url(#paper)" d="M30 0h765v995H30z"/>
+    <path d="m42 16 730-5M43 976l735-6" stroke="#fff" stroke-opacity=".12"/>
+    <path d="M48 27v941" stroke="#000" stroke-opacity=".2"/>
+    <path d="M43 31v937" stroke="#fff" stroke-opacity=".035"/>
+    <path d="m739 17 25-1M748 20h20M765 23h9M63 972l35-1M53 975h12" stroke="#c5bfb3" stroke-opacity=".15" stroke-width=".8"/>
+    <!-- Uneven ring wear, rubbed corners and exposed cardboard. Static paths only. -->
+    <g stroke="#c6b28d" stroke-linecap="round">
+      <path stroke-opacity=".48" stroke-width="1.6" d="m35 14 29-1m6-1 65-1m8 0 34-1m-142 5 28-1m-29 20 1 78m1 5v25m-1 760 1 60m2 12 68-1m14 0 79-1m9 0 16-1m389 1 89-2m8 0 26-1m8-2 1-53m-1-91v-9m-5-809-62 1m-5 0-9 1m72 2-32 1m34 20 1 93"/>
+      <path stroke-opacity=".2" stroke-width=".8" d="m42 24 53-2m-43 4 34-1m-33 2 9 1m-23 904 1 34m5-6 33-1m-31 5 66-3m625-941 26-3m-18 7 18-3m-6 11 7-2m-46 931 51-5m-39 7 24-1m-11-3 28-6M59 164l-6 217m5 42-3 117m1 17-5 46M738 739l-9 173m1-8 26 33"/>
+    </g>
+    <g fill="#c5b28e" fill-opacity=".32">
+      <path d="m34 11 50-1-5 2-17 1-1 2-20 1-3 12-4 3Zm717-6 28 0 1 39-3-4-1-14-4-9-18-3ZM35 956l4 14 9 5 30 3-2 5-42 1Zm698 20 23-3 10-1 4-7 4-1 5-23 5-4 2 41-52 1Z"/>
+    </g>
+  </g>
+  <path d="m13 10 23 1v973l-24 4-4-7Z" fill="url(#spine)"/>
+  <path d="M35 13v968" stroke="#fff" stroke-opacity=".18"/>
+  <path d="m14 13-2 969" stroke="#e8e1d6" stroke-opacity=".16"/>
+  <path d="m36 10 743-5 3 437M783 501l3 477-751 6" stroke="#c8c4ba" stroke-opacity=".24"/>
+  <path d="M783 443c-26 0-27 57 1 59" stroke="#050606" stroke-width="2"/>
+</svg>

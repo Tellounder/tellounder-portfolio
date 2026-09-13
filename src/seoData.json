@@ -1,0 +1,363 @@
+{
+  "site": {
+    "baseUrl": "https://tellounder108.web.app",
+    "name": "Tellounder",
+    "legalName": "Leonardo Emmanuel Tello",
+    "personName": "Leonardo Emmanuel Tello",
+    "phone": "+5491130623998",
+    "locale": "es_AR",
+    "language": "es-AR",
+    "profiles": {
+      "linkedin": "https://ar.linkedin.com/in/leonardo-tello-08123",
+      "instagram": "https://www.instagram.com/tellounder/",
+      "github": "https://github.com/tellounder",
+      "whatsapp": "https://wa.me/5491130623998"
+    }
+  },
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "scene": "home",
+      "type": "home",
+      "title": "Tellounder | Desarrollo de sistemas, UX e IA aplicada",
+      "description": "Diseño y desarrollo de sistemas y productos digitales para empresas: UX, frontend, backend, APIs, automatización, IA aplicada y bots RAG.",
+      "h1": "Ideas con volumen. Sistemas que funcionan.",
+      "eyebrow": "Leonardo Emmanuel Tello / Digital Product Builder",
+      "lead": "Diseño experiencias, productos y sistemas completos. Conecto estrategia, UX e ingeniería para convertir una necesidad concreta en una solución que pueda usarse y operarse.",
+      "ogImage": "/og/tellounder.png",
+      "ogAlt": "Tellounder sobre fondo negro: desarrollo de sistemas, UX e IA aplicada",
+      "sections": [
+        {
+          "title": "Producto digital de punta a punta",
+          "body": [
+            "Trabajo desde la definición del problema y los actores hasta la interfaz, los servicios, los datos y la operación.",
+            "Cada decisión se explica con contexto, implementación y evidencia del resultado disponible."
+          ]
+        },
+        {
+          "title": "Sistemas para empresas y equipos",
+          "body": [
+            "Diseño productos web, herramientas internas, integraciones, automatizaciones y experiencias administrables.",
+            "Cuando la necesidad lo requiere, incorporo IA aplicada y generación aumentada por recuperación (RAG) sobre fuentes gobernadas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "path": "/servicios",
+      "scene": "services",
+      "type": "services",
+      "title": "Desarrollo de sistemas, UX e IA para empresas | Tellounder",
+      "description": "Servicios de producto digital, sistemas corporativos, UX/UI, desarrollo full stack, APIs, automatización, IA aplicada, bots RAG y consultoría técnica.",
+      "h1": "Desarrollo de sistemas, UX e IA aplicada para empresas",
+      "eyebrow": "Servicios / Producto + Diseño + Ingeniería",
+      "lead": "Acompaño necesidades nuevas y sistemas existentes: descubro el problema, ordeno sus reglas y construyo la experiencia y la tecnología necesarias para operarlo.",
+      "ogImage": "/og/servicios.png",
+      "ogAlt": "Servicios Tellounder de sistemas, UX, desarrollo e IA sobre fondo negro",
+      "sections": [
+        {
+          "title": "Una solución acorde al problema",
+          "body": [
+            "El alcance puede ser una experiencia pública, un producto completo, una herramienta interna, una integración o la recuperación de un sistema existente.",
+            "La propuesta técnica se define después de comprender actores, datos, restricciones, operación y evidencia esperada."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "path": "/servicios/ia-rag",
+      "scene": "services",
+      "type": "service",
+      "title": "IA aplicada y bots RAG para empresas | Tellounder",
+      "description": "Diseño de asistentes y bots RAG con fuentes privadas, búsqueda contextual, trazabilidad, permisos, evaluación y una experiencia conversacional clara.",
+      "h1": "IA aplicada y bots RAG con conocimiento gobernado",
+      "eyebrow": "Servicio / IA aplicada",
+      "lead": "Diseño experiencias que consultan conocimiento autorizado y explican de dónde surge cada respuesta. El modelo forma parte de un sistema con fuentes, permisos, evaluación y límites explícitos.",
+      "ogImage": "/og/ia-rag.png",
+      "ogAlt": "IA aplicada y bots RAG de Tellounder sobre fondo negro",
+      "sections": [
+        {
+          "title": "Conocimiento privado y fuentes controladas",
+          "body": [
+            "Organizo documentos y contexto autorizado para que el sistema pueda recuperar fragmentos relevantes sin convertir archivos sin revisar en verdad pública.",
+            "La arquitectura puede contemplar roles, permisos, aprobación de fuentes y separación entre contexto histórico y estado operativo actual."
+          ]
+        },
+        {
+          "title": "Recuperación contextual y respuestas trazables",
+          "body": [
+            "Un flujo RAG combina búsqueda, selección de contexto y generación. La interfaz debe mostrar límites, fuentes y estados de procesamiento de forma comprensible.",
+            "Las evaluaciones se definen sobre preguntas representativas, calidad de recuperación, precisión de la respuesta y comportamiento ante información ausente."
+          ]
+        },
+        {
+          "title": "Experiencia conversacional útil",
+          "body": [
+            "La conversación se diseña para personas: distingue saludos, consultas, pedidos de acción y situaciones que requieren derivación humana.",
+            "No presento una automatización como inteligente por sí misma; documento qué regla, fuente, servicio o modelo interviene en cada capacidad."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "path": "/metodo",
+      "scene": "method",
+      "type": "method",
+      "title": "Método de producto digital y sistemas | Tellounder",
+      "description": "Método de Tellounder para investigar, modelar, diseñar, construir, integrar, verificar y operar productos digitales y sistemas empresariales.",
+      "h1": "Del problema al sistema que funciona",
+      "eyebrow": "Signal chain / Método",
+      "lead": "No parto de una pantalla aislada. Recorro necesidad, actores, reglas, experiencia, tecnología, datos, operación y evidencia como partes de una misma cadena.",
+      "ogImage": "/og/tellounder.png",
+      "ogAlt": "Método Tellounder para construir productos digitales sobre fondo negro",
+      "sections": [
+        {
+          "title": "Descubrir y modelar",
+          "body": [
+            "Reúno contexto, objetivos, restricciones y recorridos reales. Después modelo actores, estados, reglas, eventos y fuentes de datos antes de fijar la solución."
+          ]
+        },
+        {
+          "title": "Diseñar la experiencia",
+          "body": [
+            "Convierto el modelo en arquitectura de información, flujos, interfaz, contenido y estados comprensibles para cada persona que participa."
+          ]
+        },
+        {
+          "title": "Construir e integrar",
+          "body": [
+            "Implemento frontend, backend, APIs, persistencia, autenticación, automatizaciones e infraestructura según lo que el producto necesita."
+          ]
+        },
+        {
+          "title": "Verificar y operar",
+          "body": [
+            "Compruebo recorridos, contratos, accesibilidad, rendimiento y publicación. La operación y la evidencia forman parte del producto, no de una etapa posterior."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "path": "/sobre-leonardo-tello",
+      "scene": "about",
+      "type": "profile",
+      "title": "Leonardo Tello, Digital Product Builder | Tellounder",
+      "description": "Portfolio de Leonardo Emmanuel Tello: producto digital, UX, frontend, backend, sistemas, automatización e IA aplicada bajo la identidad Tellounder.",
+      "h1": "Soy Leonardo. Construyo como Tellounder.",
+      "eyebrow": "Backstage / Identidad",
+      "lead": "Tellounder reúne mi trabajo en producto, diseño e ingeniería. Conecto las partes de una idea para convertirlas en una experiencia, una arquitectura y un funcionamiento comprobable.",
+      "ogImage": "/og/tellounder.png",
+      "ogAlt": "Leonardo Emmanuel Tello, creador de Tellounder, sobre fondo negro",
+      "sections": [
+        {
+          "title": "Producto, diseño e ingeniería",
+          "body": [
+            "Trabajo entre estrategia, experiencia e implementación. Puedo entrar por una necesidad de negocio, una interfaz, una integración o un sistema que necesita recuperar continuidad."
+          ]
+        },
+        {
+          "title": "Trabajo visible y explicable",
+          "body": [
+            "Los casos de este portfolio describen el problema, la decisión, el resultado disponible, la evidencia y las tecnologías utilizadas en cada parte."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "path": "/contacto",
+      "scene": "contact",
+      "type": "contact",
+      "title": "Consultoría y desarrollo digital | Contacto Tellounder",
+      "description": "Contactá a Leonardo Tello para conversar sobre sistemas, productos digitales, UX, desarrollo web, APIs, automatización, IA aplicada o bots RAG.",
+      "h1": "¿Qué querés construir?",
+      "eyebrow": "Encore / Iniciar una conversación",
+      "lead": "Contame qué existe hoy, qué necesitás cambiar y qué debería poder hacer el resultado. Podemos empezar por la necesidad y ordenar juntos el alcance.",
+      "ogImage": "/og/tellounder.png",
+      "ogAlt": "Contacto profesional de Tellounder sobre fondo negro",
+      "sections": [
+        {
+          "title": "Sistemas y productos digitales",
+          "body": [
+            "Consultas sobre producto, UX/UI, frontend, backend, APIs, datos, integraciones, administración y publicación."
+          ]
+        },
+        {
+          "title": "IA aplicada y conocimiento",
+          "body": [
+            "Consultas sobre asistentes, bots RAG, fuentes privadas, flujos de aprobación, evaluación y experiencia conversacional."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": {
+    "avvivo": {
+      "path": "/proyectos/avvivo",
+      "title": "AVVIVO, sistema digital para moda mayorista | Tellounder",
+      "description": "Caso AVVIVO: producto digital con recorridos de Cliente, Tienda y Administración, Reels, Vivos, Toques, Tramas, catálogo, mapa y operación.",
+      "h1": "AVVIVO: actividad, actores y operación en un mismo sistema",
+      "ogImage": "/og/avvivo.png",
+      "ogAlt": "AVVIVO, caso de sistema digital construido por Tellounder",
+      "shareText": "AVVIVO — caso de producto y sistema digital construido por Tellounder.",
+      "topics": [
+        "producto digital",
+        "UX",
+        "frontend",
+        "backend",
+        "API REST",
+        "PostgreSQL",
+        "Cloud Run",
+        "Reels",
+        "Vivos",
+        "Toques",
+        "Tramas"
+      ]
+    },
+    "aye": {
+      "path": "/proyectos/catalogo-aye",
+      "title": "Catálogo Aye, comercio digital automatizado | Tellounder",
+      "description": "Caso Catálogo Aye: importación de datos, catálogo mobile, búsqueda, carrito, checkout por WhatsApp, administración, PWA y shares por producto.",
+      "h1": "Catálogo Aye: de una fuente externa a una experiencia comercial",
+      "ogImage": "/og/catalogo-aye.png",
+      "ogAlt": "Catálogo Aye, caso de comercio digital automatizado por Tellounder",
+      "shareText": "Catálogo Aye — caso de automatización y comercio digital construido por Tellounder.",
+      "topics": [
+        "catálogo digital",
+        "automatización",
+        "importación de datos",
+        "ecommerce",
+        "PWA",
+        "SEO",
+        "WhatsApp"
+      ]
+    },
+    "rise": {
+      "path": "/proyectos/rise-difusion",
+      "title": "Rise Difusión, plataforma cultural administrable | Tellounder",
+      "description": "Caso Rise Difusión: identidad digital, servicios musicales, catálogo de trabajos, administración, navegación pública, SEO y publicación web.",
+      "h1": "Rise Difusión: identidad, servicios y obra cultural administrable",
+      "ogImage": "/og/rise-difusion.png",
+      "ogAlt": "Rise Difusión, caso de plataforma cultural construido por Tellounder",
+      "shareText": "Rise Difusión — caso de identidad y plataforma cultural construido por Tellounder.",
+      "topics": [
+        "plataforma cultural",
+        "identidad digital",
+        "UX",
+        "administración",
+        "SEO",
+        "servicios musicales"
+      ]
+    },
+    "hembra": {
+      "path": "/proyectos/hembra",
+      "title": "Hembra, marca y comercio digital administrable | Tellounder",
+      "description": "Caso Hembra: identidad, catálogo, tienda, colecciones, universos visuales, media optimizada, administración y contacto comercial por WhatsApp.",
+      "h1": "Hembra: una marca artesanal convertida en comercio digital",
+      "ogImage": "/og/hembra.png",
+      "ogAlt": "Hembra, caso de marca y comercio digital construido por Tellounder",
+      "shareText": "Hembra — caso de marca y comercio digital construido por Tellounder.",
+      "topics": [
+        "marca digital",
+        "comercio digital",
+        "catálogo",
+        "UX",
+        "administración",
+        "optimización de imágenes"
+      ]
+    },
+    "metalmente": {
+      "path": "/proyectos/metalmente-arte",
+      "title": "MetalMente Arte, catálogo editorial interactivo | Tellounder",
+      "description": "Caso MetalMente Arte: catálogo de herrería artística, visor con zoom, identidad interactiva, administración privada y páginas compartibles por obra.",
+      "h1": "MetalMente Arte: del archivo de un taller a un catálogo interactivo",
+      "ogImage": "/og/metalmente-arte.png",
+      "ogAlt": "MetalMente Arte y Tellounder: catálogo editorial, diseño e ingeniería",
+      "shareText": "MetalMente Arte — catálogo interactivo, visor de obra y administración privada construidos por Tellounder.",
+      "topics": ["catálogo editorial", "UX", "React", "TypeScript", "SVG", "Canvas", "Firebase", "SEO técnico"]
+    },
+    "cielofinal": {
+      "path": "/proyectos/cielo-final",
+      "title": "Cielofinal, archivo cultural y experiencia musical | Tellounder",
+      "description": "Caso Cielofinal: archivo musical con vinilo interactivo, Spotify, contenido administrable, fuentes históricas y páginas y portadas por disco.",
+      "h1": "Cielofinal: música e historia en un archivo digital con memoria",
+      "ogImage": "/og/cielo-final.png",
+      "ogAlt": "Cielofinal y Tellounder: archivo cultural con experiencia musical interactiva",
+      "shareText": "Cielofinal — archivo cultural, vinilo interactivo y experiencia musical construidos por Tellounder.",
+      "topics": ["archivo cultural", "UX", "React", "TypeScript", "Spotify", "Firebase", "prerender", "Open Graph"]
+    },
+    "anto": {
+      "path": "/proyectos/anto-grispo",
+      "title": "Anto Grispo, portfolio de fotografía profesional | Tellounder",
+      "description": "Caso Anto Grispo: recuperación de obra, narrativa visual, galerías accesibles, portfolio autoadministrable, optimización WebP, SEO y contacto.",
+      "h1": "Anto Grispo: fotografía recuperada y convertida en portfolio narrativo",
+      "ogImage": "/og/anto-grispo.png",
+      "ogAlt": "Anto Grispo, caso de portfolio fotográfico construido por Tellounder",
+      "shareText": "Anto Grispo — caso de recuperación y portfolio fotográfico construido por Tellounder.",
+      "topics": [
+        "portfolio fotográfico",
+        "recuperación web",
+        "narrativa visual",
+        "accesibilidad",
+        "administración",
+        "WebP",
+        "SEO"
+      ]
+    }
+  },
+  "services": [
+    {
+      "id": "sistemas-productos",
+      "title": "Sistemas corporativos y productos digitales",
+      "summary": "Productos públicos y herramientas internas conectados por reglas, datos y operación.",
+      "detail": "Defino actores, permisos, estados, recorridos y evidencia antes de implementar las superficies y los servicios que necesita cada organización.",
+      "href": "/servicios#sistemas-productos",
+      "projectIds": ["avvivo", "aye", "hembra"]
+    },
+    {
+      "id": "ux-arquitectura",
+      "title": "UX/UI y arquitectura de experiencia",
+      "summary": "Información, flujos e interfaces comprensibles para recorridos reales.",
+      "detail": "Trabajo investigación, arquitectura, contenido, interacción, accesibilidad y diseño responsive como partes del funcionamiento del producto.",
+      "href": "/servicios#ux-arquitectura",
+      "projectIds": ["avvivo", "aye", "rise", "hembra", "anto", "metalmente", "cielofinal"]
+    },
+    {
+      "id": "ia-rag",
+      "title": "IA aplicada, asistentes y bots RAG",
+      "summary": "Experiencias conversacionales conectadas con fuentes autorizadas y respuestas trazables.",
+      "detail": "Diseño recuperación de contexto, gobierno de fuentes, permisos, evaluación, derivación humana e interfaces que explican el estado y los límites del sistema.",
+      "href": "/servicios/ia-rag",
+      "projectIds": []
+    },
+    {
+      "id": "apis-automatizacion",
+      "title": "Integraciones, APIs y automatización",
+      "summary": "Servicios y procesos que conectan información sin trasladar reglas críticas al navegador.",
+      "detail": "Implemento contratos HTTP, importadores, sincronizaciones, workers, colas y tareas programadas según la fuente, frecuencia y nivel de control requerido.",
+      "href": "/servicios#apis-automatizacion",
+      "projectIds": ["avvivo", "aye"]
+    },
+    {
+      "id": "ingenieria-full-stack",
+      "title": "Frontend, backend, datos y cloud",
+      "summary": "Implementación full stack con responsabilidades claras entre interfaz, servicios e infraestructura.",
+      "detail": "Construyo aplicaciones web, autenticación, persistencia, media, observabilidad y publicación con una arquitectura proporcional al producto.",
+      "href": "/servicios#ingenieria-full-stack",
+      "projectIds": ["avvivo", "aye", "hembra", "anto"]
+    },
+    {
+      "id": "auditoria-rescate",
+      "title": "Auditoría, rescate y consultoría técnica",
+      "summary": "Lectura del estado real de un producto para recuperar continuidad y decidir el próximo paso.",
+      "detail": "Reviso código, experiencia, datos, publicación y documentación; separo evidencia de supuestos y propongo una intervención acotada y verificable.",
+      "href": "/servicios#auditoria-rescate",
+      "projectIds": ["rise", "anto"]
+    }
+  ]
+}
